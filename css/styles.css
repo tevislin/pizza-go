@@ -1,19 +1,24 @@
 .header {
   display: flex;
-  border-bottom: 1px solid rgb(136, 135, 135);
+
   padding-left: 5%;
   color: green;
   height: 6vh;
 }
 .links {
   display: flex;
-  width: 30%;
-  margin-left: 63%;
+  width: 70%;
+  margin-left: 43%;
+}
+.header h3 {
+  margin-top: 10px;
+  color: grey;
 }
 .links h4 {
   padding-left: 40px;
   padding-top: 15px;
   color: black;
+  transition: 0.5s;
 }
 .links h4 a {
   color: black;
@@ -25,7 +30,12 @@
   color: green;
   text-shadow: 0 0 1px green;
 }
-.header h1:hover {
+.links h4:hover {
+  transform: translateY(-5px);
+  color: green;
+  text-shadow: 0 0 1px green;
+}
+.header h3:hover {
   text-shadow: 0 0 1px white;
   cursor: pointer;
 }
