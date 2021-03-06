@@ -158,4 +158,21 @@
 .menu {
   height: 100vh;
   background-color: aliceblue;
+
+  padding-top: 100px;
+}
+.menu h4 {
+  color: #4caf50;
+  text-align: center;
+}
+.menucard {
+  width: 25%;
+  background-color: white;
+  border-radius: 20px;
+}
+.menucard img {
+  width: 100px;
+}
+.menu h1 {
+  text-align: center;
 }
