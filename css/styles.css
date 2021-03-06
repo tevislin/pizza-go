@@ -1,9 +1,8 @@
 .header {
   display: flex;
-
   padding-left: 5%;
   color: green;
-  height: 6vh;
+  height: 8vh;
 }
 .links {
   display: flex;
@@ -41,7 +40,7 @@
 }
 .wrapper {
   display: flex;
-  height: 94vh;
+  height: 92vh;
 }
 #pizzaa {
   width: 500px;
@@ -78,4 +77,17 @@
   width: 130px;
   border-radius: 10px;
   border: 1px solid green;
+}
+.aboutus {
+  height: 100vh;
+  padding-top: 10%;
+  padding-left: 100px;
+  display: flex;
+}
+.aboutimage {
+  height: 500px;
+  border-radius: 20px;
+}
+.aboutUsPic {
+  width: 50%;
 }
