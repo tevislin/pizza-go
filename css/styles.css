@@ -64,4 +64,8 @@
   margin-top: 40px;
   color: white;
   background-color: green;
+  height: 50px;
+  width: 130px;
+  border-radius: 10px;
+  border: 1px solid green;
 }
