@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  border-bottom: 1px solid rgb(136, 135, 135);
+  text-align: center;
+}
+.htext {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  background-color: red;
+}
