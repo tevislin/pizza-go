@@ -155,3 +155,7 @@
 .cards {
   display: flex;
 }
+.menu {
+  height: 100vh;
+  background-color: aliceblue;
+}
