@@ -225,11 +225,10 @@ button:hover {
 .order1 {
   width: 50%;
   padding-top: 100px;
-  padding-left: 100px;
-  background-color: red;
 }
 .orderpic {
   width: 450px;
+  margin-left: 100px;
 }
 .pizza2 {
   display: none;
@@ -238,11 +237,19 @@ button:hover {
   display: none;
 }
 #pizzaselect {
-  width: 100%;
+  width: 70%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  margin-left: 15%;
+}
+.order2 {
+  width: 50%;
+}
+.order2 h1 {
+  margin-left: 15%;
+  margin-top: 100px;
 }
