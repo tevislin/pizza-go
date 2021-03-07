@@ -1,10 +1,11 @@
-$(document).ready(function(event){
-    var pizzaType=document.querySelector("#pizzaselect").val();
-    
-    function wordChange(){
-        if (pizzaType="Tomato"){
-            alert("Tomato")
-        }
-    }
+$(document).ready(function(){
+    $("#orderFirst").click(function(){
+    $(".menu").toggle();
+    $(".order1").show();
+    })
 
+    $(".card2").click(function(){
+        $(".icon2").toggle();
+        $(".c-text2").toggle();
+    })
 })
