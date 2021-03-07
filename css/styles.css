@@ -235,7 +235,7 @@ button:hover {
   display: none;
 }
 .contactus {
-  height: 100vh;
+  height: 60vh;
   padding-top: 80px;
   padding-left: 80px;
   padding-right: 80px;
@@ -245,11 +245,40 @@ button:hover {
 }
 .contact {
   display: flex;
-  background-color: red;
 }
 .contactmsg {
   width: 80%;
   padding-top: 20px;
 }
 .contactmsg h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+.contactmsg p {
+  font-size: 23px;
+  color: grey;
+}
+.contact button {
+  margin-top: 30px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+  height: 60px;
+  margin-top: 70px;
+}
+.contact button:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.footer {
+  height: 40vh;
+}
+.footer {
+  margin-left: 80px;
 }
