@@ -199,3 +199,35 @@
   display: flex;
   padding-left: 10%;
 }
+.menu button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 90px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+}
+button:hover {
+  background-color: green;
+}
+
+.order {
+  display: flex;
+  height: 100vh;
+}
+.order1 {
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 100px;
+  background-color: red;
+}
+.orderpic {
+  width: 450px;
+}
