@@ -234,3 +234,22 @@ button:hover {
   background-color: red;
   display: none;
 }
+.contactus {
+  height: 100vh;
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.contactus h3 {
+  color: #4caf50;
+}
+.contact {
+  display: flex;
+  background-color: red;
+}
+.contactmsg {
+  width: 80%;
+  padding-top: 20px;
+}
+.contactmsg h1 {
+}

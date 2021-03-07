@@ -1,7 +1,8 @@
 $(document).ready(function(){
     $("#orderFirst").click(function(){
+        $(".order1").toggle();
     $(".menu").toggle();
-    $(".order1").show();
+    
     })
 
     $(".card2").click(function(){
