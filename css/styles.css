@@ -3,6 +3,8 @@
   padding-left: 5%;
   color: #4caf50;
   height: 8vh;
+  position: fixed;
+  width: 100%;
 }
 .links {
   display: flex;
