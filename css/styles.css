@@ -319,3 +319,23 @@ h5 {
   text-align: center;
   color: #4caf50;
 }
+
+#new-addresses {
+  display: none;
+}
+#order {
+  width: 50%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#ordersection {
+  display: flex;
+}
+
+#order2 {
+  height: 100vh;
+  padding-top: 7vh;
+}
+.pizzaAmount {
+  margin-bottom: 20px;
+}

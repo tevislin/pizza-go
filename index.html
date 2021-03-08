@@ -126,57 +126,93 @@
     <section id="ordersection">
       <div id="order">
         <h3>Order a pizza</h3>
+
         <form>
-          <div class="formcontrol">
+          <div class="form-group">
             <label>Type of pizza</label>
             <select id="type">
-              <option value="tomato">Tomato</option>
-              <option value="chicken">Chicken</option>
-              <option value="vegan">Vegan</option>
-            </select>
+              <option value="24">Tomato $24.00</option>
+              <option value="10">Chicken $10.00</option>
+              <option value="18">Vegan $18.00</option></select
+            ><br />
           </div>
-          <div class="formcontrol">
+          <div class="form-group">
             <label>Size of pizza</label>
-            <select>
-              <option>Small</option>
-              <option>Medium</option>
-              <option>Large</option>
-            </select>
+            <select id="size">
+              <option value="0">Small extra $0</option>
+              <option value="5">Medium extra $5</option>
+              <option value="10">Large extra $10</option></select
+            ><br />
           </div>
-          <div class="formcontrol">
+
+          <div class="form-group">
             <label>Crust</label>
-            <select>
-              <option>Crispy</option>
-              <option>Stuffed</option>
-              <option>Glueten-free</option>
-            </select>
+            <select id="crust">
+              <option value="2">Thin $2</option>
+              <option value="4">Fat $4</option></select
+            ><br />
           </div>
-          <div class="formcontrol">
+          <h2>Toppings</h2>
+          <div class="form-group">
             <input
               type="checkbox"
               id="sausage"
               name="sausage"
               value="sausage"
-            /><label>sausage</label>
+            /><label>sausage $2</label><br />
           </div>
-          <div class="formcontrol">
+          <div class="form-group">
             <input
               type="checkbox"
               id="potato"
               name="potato"
               value="potato"
-            /><label>potato</label>
+            /><label>potato $2</label><br />
           </div>
-          <div class="formcontrol">
+          <div class="form-group">
             <input
               type="checkbox"
               id="olives"
               name="olives"
               value="olives"
-            /><label>sausage</label>
+            /><label>Olives $2</label><br />
           </div>
-          <button id="submitbutton">Submit</button>
+          <label>Amount of pizzas </label><br /><input
+            type="text"
+            id="amount"
+            value="1"
+            class="pizzaAmount"
+            placeholder="amount of pizzas"
+          />
+          <br />
+          <div id="new-addresses">
+            <div class="form-group">
+              <label for="street">Street</label>
+              <input type="text" class="form-control street" />
+            </div>
+            <div class="form-group">
+              <label for="city">City</label>
+              <input type="text" class="form-control city" />
+            </div>
+            <div class="form-group">
+              <label for="country">country</label>
+              <input type="text" class="form-control country" />
+            </div>
+          </div>
+
+          <button type="button" id="submitbutton" class="btn btn-success">
+            Submit
+          </button>
+          <button type="button" class="btn primary" id="add-address">
+            GET IT DELIVERED TO YOUR ADDRESS
+          </button>
         </form>
+      </div>
+      <div id="order2">
+        <h1>Your order</h1>
+        <h3 id="price" style="color: green"></h3>
+        <p id="moredetails"></p>
+        <p id="sizeinfo"></p>
       </div>
     </section>
     <section id="contacsec">
