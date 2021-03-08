@@ -47,7 +47,29 @@ $("document").ready(function(){
             sausage=0
         }
 var AddAll=(pizzaType+pizzaSize+pizzaCrust+potato+olives+sausage);
+var topingChanger= function(){
+    if(sausage==true){
+        return ("sausage")
+    }
+    else if(sausage==false){
+        return ""
+    }
+    if(olives==true){
+        return "olives"
+    }
+    else if(olives==false){
+        return ""
+    }
+    if(potato==true){
+        return "potato"
+    }
+    else if(potato==false){
+        return ""
+    }
+   
+    return sausage+olives+potato
 
+}
 var pizzaTypeChanger= function(){
     
     if(pizzaType == 10){
@@ -61,13 +83,24 @@ var pizzaTypeChanger= function(){
     }
 }
 
+var pizzaCrustChanger = function(){
+    if(pizzaCrust == 2){
+        return "thin"
+    }
+    if(pizzaCrust == 4){
+        return "fat"
+    }
+}
+
 var totalPrice= $ +AddAll *amount;
 
 document.querySelector("#price").innerHTML="Total price is $"+AddAll * amount;
 
 document.querySelector("#moredetails").innerHTML="Type of pizza is " + pizzaTypeChanger();
   
-  
+document.querySelector("#crustinfo").innerHTML="Type of crust is " + pizzaCrustChanger();
+
+document.querySelector("#topinfo").innerHTML="The toppings are " + topingChanger();
 })
 
 })
