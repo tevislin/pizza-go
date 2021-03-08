@@ -188,15 +188,15 @@
           <div id="new-addresses">
             <div class="form-group">
               <label for="street">Street</label>
-              <input type="text" class="form-control street" />
+              <input type="text" class="form-control street" id="street" />
             </div>
             <div class="form-group">
               <label for="city">City</label>
-              <input type="text" class="form-control city" />
+              <input type="text" class="form-control city" id="city" />
             </div>
             <div class="form-group">
               <label for="country">country</label>
-              <input type="text" class="form-control country" />
+              <input type="text" class="form-control country" id="country" />
             </div>
           </div>
 
@@ -209,13 +209,18 @@
         </form>
       </div>
       <div id="order2">
-        <h1>Your order</h1>
+        <h1 id="yourorder"></h1>
         <h3 id="price" style="color: green"></h3>
         <p id="moredetails"></p>
         <p id="sizeinfo"></p>
         <p id="crustinfo"></p>
-        <h3>Toppings</h3>
         <p id="topinfo"></p>
+        <p id="amountorder"></p>
+        <p id="addresses"></p>
+
+        <button id="confirm" class="btn btn-success" id="confirm">
+          CONFIRM ORDER
+        </button>
       </div>
     </section>
     <section id="contacsec">
